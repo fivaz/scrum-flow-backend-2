@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+django-ninja = "*"
+jiraone = "*"
+django-cors-headers = "*"
+requests = "*"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.6"
